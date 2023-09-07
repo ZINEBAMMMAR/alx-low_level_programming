@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Check if the CFILE variable is set
+if [ -z "$CFILE" ]; then
+  echo "CFILE is not set. Please export CFILE with the C file name."
+  exit 1
+fi
+
+# Check if the C file exists
+if [ ! -f "$CFILE" ]; then
+  echo "C file '$CFILE' not found."
+  exit 1
+fi
+
+# Run the preprocessor and save the output to 'c' file
+cpp "$CFILE" > c
+
+echo "Preprocessing of '$CFILE' completed. Output saved in 'c'."
+
