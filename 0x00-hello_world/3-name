@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -o cisfun main.c && ./cisfun
+export CFILE=main.c && gcc $CFILE -o cisfun && ./cisfun
