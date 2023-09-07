@@ -1,0 +1,1 @@
+The tasks in this repository cover various aspects of C programming, including preprocessor directives, compiling and assembling C code, using functions like puts and printf, and understanding data type sizes.
