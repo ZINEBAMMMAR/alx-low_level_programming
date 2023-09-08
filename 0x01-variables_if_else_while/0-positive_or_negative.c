@@ -2,8 +2,11 @@
 #include <stdio.h>
 #include <time.h>
 
-/* betty style doc for function main goes there
- * main - Entry point of the program*/
+/**
+ *  betty style doc for function main goes there
+ * main - Entry point of the program
+ */
+
 int main(void)
 {
 	int n;
