@@ -3,11 +3,10 @@
 #include <time.h>
 
 /**
- *  betty style doc for function main goes there
+ * main - Entry point
  *
- * main - Entry point of the program
- *
- * This function generates a random number and prints whether it's positive, zero,or negative.
+ * Description: This function generates a random number and prints whether it's
+ * positive, zero, or negative.
  *
  * Return: Always 0 (Success)
  */
